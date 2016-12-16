@@ -1,0 +1,21 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\user\Entity\User;
+use Drupal\user\UserInterface;
+
+
+/**
+ * Implements hook_help()
+ */
+function user_dashboard_help($route_name, RouteMatchInterface $route_match) {
+
+  if ($route_name == 'help.page.user_dashboard') {
+    $output = '';
+    $output .= '<h3>' . t('About') . '</h3>';
+    $output .= '<p>' . t('The User Dashboard module provides a Spotfire dashboard for each of the user\' research projects.') . '</p>';
+    return $output;
+  }
+}

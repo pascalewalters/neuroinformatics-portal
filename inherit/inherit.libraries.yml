@@ -1,0 +1,6 @@
+global-styling:
+  version: 8.0.0
+  css:
+    base:
+      css/block.css: {}
+      css/html.css: {}

@@ -1,0 +1,18 @@
+user_dashboard.dashboard:
+  path: '/dashboard'
+  defaults:
+    _title: 'Dashboard'
+    _controller: '\Drupal\user_dashboard\Controller\UserDashboardController::getUserDashboardImplementation'
+  requirements:
+    _permission: 'access content'
+    _role: 'authenticated'
+
+user_dashboard.default_form:
+  path: '/admin/config/user-dashboard/default'
+  defaults:
+    _form: '\Drupal\user_dashboard\Form\DefaultForm'
+    _title: 'Neuroinformatics Platform Dashboard Configuration'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

@@ -1,0 +1,8 @@
+name: CAMH Neuroinformatics User Dashboard
+description: 'This module customizes the Neuroinformatics Platform User Dashboard Page.'
+type: module
+configure: user_dashboard.default_form
+package: 'Custom'
+core: 8.x
+dependencies:
+  - node

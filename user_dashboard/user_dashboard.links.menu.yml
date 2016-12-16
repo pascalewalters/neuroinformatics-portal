@@ -1,0 +1,5 @@
+user_dashboard.default_form:
+  title: 'CAMH Neuroinformatics Platform Dashboard Settings'
+  parent: system.admin_config_development
+  description: 'Configure dashboard settings'
+  route_name: user_dashboard.default_form

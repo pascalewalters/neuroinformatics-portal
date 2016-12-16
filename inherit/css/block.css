@@ -1,0 +1,189 @@
+#main-menu .container {
+  box-shadow: none;
+  background: none;
+  background-color: #6E298D;
+  border-radius: 0;
+  height: 35px;
+}
+
+#main-menu .container ul.menu li > a, #slideshow .container .views-field-title, #featured .container .views-field-title {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.form-actions .form-submit {
+  background: #6E298D;
+}
+
+/* user_account */
+.region-user-account {
+  background-color: none;
+  float: right;
+}
+
+.site-logo {
+  height: 65px;
+}
+
+.site-logo img {
+  width: 345px;
+}
+
+#main-menu .container ul.menu li {
+  border-left: 2px solid #6E298D;
+}
+
+#main-menu .container ul.menu li > a {
+  padding: 7px 20px;
+  color: #ffffff;
+  text-transform: none;
+}
+
+#main-menu .container ul.menu li .is-active {
+  background: none;
+  background-color: #9A38C7;
+}
+
+#main-menu .container ul.menu li.menu-item--active-trail > a {
+  background: none;
+  background-color: #9A38C7;
+}
+
+#main-menu .container ul.menu li:first-child > a {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#main-menu .container ul.menu li:hover > a, #main-menu .container ul.menu li:focus > a {
+  background: none;
+  background-color: #9A38C7;
+}
+
+#main-menu .container ul.menu ul.menu {
+  background: #6E298D;
+  border: 5px solid #9A38C7;
+}
+
+#main-menu .container ul.menu ul.menu li a {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#slideshow .flex-caption {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#slideshow .flex-caption a:hover {
+  color: #6E298D;
+}
+
+#slideshow .flex-control-paging li a.flex-active:before {
+  background: #6E298D;
+}
+
+#featured .container .views-col:hover .views-field-title a, #featured .container .views-col:focus .views-field-title a {
+  color: #6E298D;
+}
+
+#main .container .content .views-row {
+  border-top: none;
+  padding-top: 0;
+  margin-bottom: 0;		
+}
+
+#main .container .content .views-row:hover h2 a, #main .container .content .views-row:focus h2 a {
+  color: #6E298D;
+}
+
+.sidebar ul.menu li .is-active {
+  color: #6E298D;
+}
+
+.sidebar ul.menu li.menu-item--active-trail > a {
+  color: #6E298D;
+}
+
+.sidebar .quote-info a {
+  color: #6E298D;
+}
+
+.sidebar .view-content-recent .views-row {
+  border-top: none;
+}
+
+.sidebar .view-content-recent .views-row:hover .views-field-title a, .sidebar .view-content-recent .views-row:focus .views-field-title a {
+  color: #6E298D;
+}
+
+#panel_second .content a:hover, #panel_second .content a:focus {
+  color: #6E298D;
+}
+
+#footer .block {
+  float: right;
+  padding-right: 20px;
+}
+
+#footer ul.menu li a:hover, #footer ul.menu li a:focus {
+  color: #6E298D;
+}
+
+#footer ul.menu li a.is-active {
+  color: #6E298D;
+}
+
+.subscribe-form .form-submit {
+  background-color: #6E298D;
+}
+
+.social-wrap .social-list li a:hover, .social-wrap .social-list li a:focus {
+  background: #6E298D;
+}
+
+/* database help */
+.views-field-field-database-help-description {
+  font-size: 1.23em;
+}
+
+/* database description */
+.views-field-field-database-description {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+}
+
+/* database link */
+.views-field-field-database-link {
+  padding-top: 10px;
+}
+
+/* database button */
+.views-field-field-database-button {
+  text-align: center;
+  padding-bottom: 25px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* analytics description */
+.views-field-field-analytics-description {
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+}
+
+/* analytics button */
+.views-field-field-analytics-button {
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* analytics column */
+.analytics-col {
+  width: 50%;
+}
+
+/* slideshow block */
+.news-slideshow {
+  margin: 20px;
+  height: 296px;
+}
