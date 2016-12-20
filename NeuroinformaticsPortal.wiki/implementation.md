@@ -1,6 +1,6 @@
 # Implementation
 
-![LandingPage](/img/LandingPage.png)
+![LandingPage](/NeuroinformaticsPortal.wiki/img/LandingPage.png)
 **Figure 1:** Landing page. Contains basic information about the Neuroinformatics Platform and a slideshow for news events.  
 
 ![GettingStarted](/uploads/7528b357d122497baf68866ce4d3fe81/GettingStarted.png)
