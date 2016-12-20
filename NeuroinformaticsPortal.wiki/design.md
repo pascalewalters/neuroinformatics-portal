@@ -1,0 +1,2 @@
+# Design
+Since the CAMH Neuroinformatics Platform is largely based on OBI’s Brain-CODE, it seemed appropriate to have a portal that was also similar. The Brain-CODE portal is organized into tabs that can be accessed through the main navigation. This allows for similar features to be grouped together. For example, all electronic data capture tools can be accessed from one tab and the Spotfire dashboard is displayed on another.
